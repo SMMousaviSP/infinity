@@ -1,0 +1,4 @@
+#! /bin/bash
+
+export INFINITY_HOME="/home/mohammad/src/elisp/infinity"
+emacs --name Infinity --no-site-file --no-site-lisp --no-splash --title Infinity -l $INFINITY_HOME/init.el "$@"
